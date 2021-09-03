@@ -41,6 +41,7 @@ sgx_tstd        = { rev = "v1.1.3", git = "https://github.com/apache/teaclave-sg
 [patch.crates-io]
 ppv-lite86 = { path = "../../../cryptocorrosion-sgx/utils-simd/ppv-lite86/" }
 ring = { git = "https://github.com/Phala-Network/ring-sgx.git", branch = "phala" }
+cpufeatures = { git = "https://github.com/Phala-Network/cpufeatures-sgx.git", branch = "phala" }
 
 [patch.'https://github.com/apache/teaclave-sgx-sdk.git']
 # sgx_alloc = { path = "../../../teaclave-sgx-sdk/sgx_alloc" }
